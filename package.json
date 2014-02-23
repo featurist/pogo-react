@@ -2,7 +2,7 @@
   "name": "pogo-react",
   "version": "0.0.1",
   "description": "A little bridge between PogoScript and react.js",
-  "main": "index.js",
+  "main": "src/pogo_react.pogo",
   "scripts": {
     "test": "make test"
   },
