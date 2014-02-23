@@ -20,7 +20,9 @@ Start with a module looking like this:
 
 ...then use it from React like this:
 
-    React.renderComponent(require('component.js'), document.body)
+    Component = require('./component.js')
+    instance = Component { prop = 'value' }
+    React.renderComponent(instance, document.body)
 
 ## License
 
