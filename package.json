@@ -1,0 +1,21 @@
+{
+  "name": "pogo-react",
+  "version": "0.0.1",
+  "description": "A little bridge between PogoScript and react.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "@joshski",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "react": "~0.8.0",
+    "pogo": "~0.6.5",
+    "dslify": "~0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2",
+    "domino": "~1.0.15"
+  }
+}
